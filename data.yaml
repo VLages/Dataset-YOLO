@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['grauna']
+
+roboflow:
+  workspace: araras
+  project: grauna-detection-fva2d
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/araras/grauna-detection-fva2d/dataset/1
